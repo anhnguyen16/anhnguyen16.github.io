@@ -6,10 +6,10 @@ import Home from './pages/Home';
 function App() {
   return (
     <Routes>
-      <Route path="demo-vite-react">
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-      </Route>
+      {/* <Route path="demo-vite-react"> */}
+      <Route index element={<Home />} />
+      <Route path="about" element={<About />} />
+      {/* </Route> */}
     </Routes>
   );
 }
