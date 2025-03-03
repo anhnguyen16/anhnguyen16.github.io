@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <h1>About</h1>
-      <NavLink to={'/demo-vite-react'}>Quay lại</NavLink>
+      <NavLink to={'/'}>Quay lại</NavLink>
     </>
   );
 };
